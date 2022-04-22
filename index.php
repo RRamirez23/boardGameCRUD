@@ -12,7 +12,7 @@
 
         <div class="container-xxl my-md-4 bd-layout">
 
-            <main class="bd-main order-1"> 
+            <main class="bd-main order-1">  
                 <!-- <div class="px-4 py-5 my-5 text-center">
                     <img class="d-block mx-auto mb-4" src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
                     <h1 class="display-5 fw-bold">Centered hero</h1>
@@ -66,14 +66,14 @@
 
         
                 <div class="row justify-content-center" >
-                    <form action="" method="post">
+                    <form action="process.php" method="post">
                         <div class="form-group"> 
                             <label for="">Name</label>
                             <input type="text" name="name" class="form-control" value="Enter your name">
                         </div>
                         <div class="form-group">         
-                            <label for="">Location</label>
-                            <input type="text" name="location" class="form-control" value="Enter your location">
+                            <label for="">Email</label>
+                            <input type="text" name="email" class="form-control" value="Enter your email">
                         </div>
         
                         <div class="form-group">   
@@ -82,11 +82,11 @@
                     </form>
                 </div>
 
-                <div class="bd-example">
+                <!-- <div class="bd-example">
                     <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
                     <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
                     <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
-                </div>
+                </div> -->
         
             </main>
         </div>
@@ -94,7 +94,7 @@
     
     
 
-        
+
 
         
     </body>
